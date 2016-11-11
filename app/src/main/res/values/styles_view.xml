@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LineView">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">#e5e5e5</item>
+    </style>
+    <!-- 竖线 -->
+    <style name="VerticalView">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#e5e5e5</item>
+    </style>
+    <!-- list -->
+    <style name="ListView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:listSelector">#0000</item>
+        <item name="android:divider">@null</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+    <!-- 登录输入框 -->
+    <style name="LoginET">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@drawable/login_et_bg</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textColor">#ff666666</item>
+        <item name="android:textColorHint">#ffdddddd</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+</resources>
